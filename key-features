@@ -1,0 +1,4 @@
+01. Definig our own HTML tag.
+02. Separation of data/model from the view.
+03. Built-in change detection mechanism.
+04. Automatically synchronizes the model from the view.
