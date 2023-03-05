@@ -1,0 +1,11 @@
+Syntax:
+*ngIf="isImageVisible(); else noImage" - boolean
+<ng-template #noImage>
+    <p>No image</p>
+</ng-template>
+
+
+- To avoid elvis property
+
+elvis property:
+course?.property 
