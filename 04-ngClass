@@ -1,0 +1,22 @@
+Syntax:
+[ngClass]="'course-card beginner'"
+
+[ngClass]="['course-card', 'beginner']"
+
+[ngClass]="{'course-card': true, 'beginner': false}"
+
+***calling a function is the recommended approach
+
+.HTML
+[ngClass]="cardClasses()"
+
+.ts
+cardClasses(){
+    return{'course-card': this.course.category == 'BEGINNER', 'beginner': false}
+}
+
+cardClasses(){
+    if(true){
+        return ['beginner'];
+    }
+}

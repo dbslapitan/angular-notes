@@ -1,0 +1,10 @@
+.ts
+cardStyles(){
+    return {
+        'text-decoration': 'underline',
+        'background-image': 'url(' + this.course.iconUrl + ')'
+    }
+}
+
+.html
+<course-card [ngStyle]="cardStyles()"></course-card>
