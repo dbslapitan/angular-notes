@@ -1,0 +1,5 @@
+<div class="container" [ngSwitch]="course.category">
+    <div class="case1" *ngSwitchCase="'BEGINNER'"></div>
+    <div class="case1" *ngSwitchCase="'Intermediate'"></div>
+    <div class="case1" *ngSwitchDefault="'Advance'"></div>
+</div>

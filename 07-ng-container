@@ -1,0 +1,3 @@
+<ng-container></ng-container>
+
+***Use it as a wrapper container when using a structural directive rather than using div.
