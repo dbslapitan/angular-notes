@@ -1,0 +1,3 @@
+{{title | uppercase}}
+{{title | lowercase}}
+{{title | titlecase}} - capitalize the first letter of each word

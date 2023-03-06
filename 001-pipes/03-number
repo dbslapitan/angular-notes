@@ -1,0 +1,2 @@
+{{price | number: '3.3-5'}} - 3 integer(left of the decimal) digits and 3 - 5 fraction(right of the decimal) digits. IE. 9.99 = 009.990
+

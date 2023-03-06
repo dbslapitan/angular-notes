@@ -1,0 +1,3 @@
+{{course | json}}
+
+prints the course array into json

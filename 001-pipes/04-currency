@@ -1,0 +1,1 @@
+{{price | currency: 'EUR'}} adds the sign - default is $

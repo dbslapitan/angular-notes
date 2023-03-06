@@ -1,0 +1,3 @@
+course | slice:0:2
+
+course is an array, get only indices 0 and 1. 2 is not included.
